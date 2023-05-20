@@ -1,0 +1,6 @@
+git status -- Muestra el estado de los cambios
+git add -- Agrega los cambios realizados 
+git commit -- Junta los cambios hechos en un solo lugar
+git push -- sube el commit a la rama principal (main)
+git pull -- me traigo info de la rama principal para seguir trabajando en una nueva branch
+
