@@ -3,4 +3,14 @@
 
 
 inet 172.17.0.1  netmask 255.255.0.0  broadcast 172.17.255.255
-x
+
+
+¿Es diferente a la IP pública y privada de nuestra máquina host?
+
+Sí, la IP pública y privada de una máquina host se refieren a direcciones IP distintas y tienen propósitos diferentes:
+
+- IP privada: Es una dirección IP asignada a un dispositivo dentro de una red local (LAN). Esta dirección IP se utiliza para identificar y comunicarse con los dispositivos en la red local. Las direcciones IP privadas están reservadas y no son únicas a nivel global, lo que significa que pueden repetirse en diferentes redes locales. Algunos rangos de direcciones IP privadas comunes son 192.168.0.0 - 192.168.255.255, 10.0.0.0 - 10.255.255.255 y 172.16.0.0 - 172.31.255.255. Estas direcciones IP no son accesibles directamente desde Internet y se utilizan principalmente para la comunicación interna dentro de la red local.
+
+- IP pública: Es una dirección IP única y pública asignada a un dispositivo conectado a una red externa, como Internet. Esta dirección IP se utiliza para identificar y comunicarse con el dispositivo en Internet. La dirección IP pública permite que otros dispositivos y servicios en Internet accedan a la máquina host desde fuera de la red local. La dirección IP pública se asigna a través del proveedor de servicios de Internet (ISP) y puede ser estática (permanente) o dinámica (cambiante en intervalos de tiempo).
+
+En resumen, la IP privada se utiliza para identificar y comunicarse dentro de una red local, mientras que la IP pública se utiliza para identificar y comunicarse desde y hacia Internet.
